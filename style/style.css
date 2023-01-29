@@ -101,7 +101,8 @@ body{
 
 .dice{
     width: 10rem;
-    box-shadow: 5px 5px 20px black;
+    box-shadow: 5px 5px 20px rgb(240, 11, 11);
+    border-radius: 10px;
 }
 
 .btn{

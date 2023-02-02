@@ -46,7 +46,7 @@ function newGame() {
 
 function rollDice() {
     diceChoice = Math.round(Math.random() * 5) + 1;
-    diceImageEl.innerHTML = `<img src="./images/dice-${diceChoice}.png" alt="dice_img">`;
+    diceImageEl.innerHTML = `<img src="/assets/images/dice-${diceChoice}.png" alt="dice_img">`;
 
     if (diceChoice !== 1) {
         if (player === 1) {

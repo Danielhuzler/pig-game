@@ -38,9 +38,10 @@ body{
 }
 
 .container{
-    width: 90%;
+    width: 50%;
     height: 90vh;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .onesideBox{
@@ -53,11 +54,11 @@ body{
 }
 
 .otherPlayer{
-    background-color: rgb(80, 85, 95);
+    background-color: rgb(65, 64, 29);
 }
 
 .currentPlayer{
-    background-color: rgb(47, 79, 79);
+    background-color: rgb(61, 12, 3);
 }
 
 .player{
@@ -66,7 +67,7 @@ body{
 }
 
 .playerScore{
-    color: orange;
+    color: rgb(156, 109, 21);
     font-size: 3rem;
 }
 
@@ -101,7 +102,7 @@ body{
 
 .dice{
     width: 10rem;
-    box-shadow: 5px 5px 20px rgb(240, 11, 11);
+    box-shadow: 5px 5px 20px rgb(236, 117, 117);
     border-radius: 10px;
 }
 
@@ -130,8 +131,9 @@ body{
 .won{
     
     
-    background-image: url(https://acegif.com/wp-content/uploads/gif/confetti-2.gif);
+    background-image: url(https://img1.picmix.com/output/stamp/normal/2/9/9/4/1574992_c8268.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: 100vh;
     color: rgb(34, 37, 41);
 }
